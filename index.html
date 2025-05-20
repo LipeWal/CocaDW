@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cols</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0%;
+            font-family: Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+            font-weight: 700;
+            background-color: #eeeeee;
+            
+        }
+        nav {
+            background-color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .LogoInicio {
+            margin: 10px;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content:space-around;
+            flex-grow: 1; /* Isso fará com que ocupe o espaço disponível */
+
+        }
+
+        .nav-container a {
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black; /* Cor de fundo opcional */
+            text-align: center;
+            padding: 0px;
+        }
+        .LogoFinal{
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+
+        }
+
+        hr {
+            margin: 30px;
+            width: 100%;
+            height:0.5; /* Espessura da linha */
+            background-color:white; /* Cor da linha */
+        }
+
+        .icones {
+            padding: 30px;
+            display: flex;
+            justify-content: center; /* Centraliza os elementos */
+        }
+
+        .footerlinks {
+            display: flex;
+            justify-content: center; /* Centraliza os elementos horizontalmente */
+            gap: 30px; /* Espaçamento entre os links */
+        }
+
+        .footerlinks a {
+            padding: 30px; /* Reduzi o padding para evitar desalinhamento */
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        .icones i {
+            padding: 50px;
+            font-size: 25px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <figure class="LogoInicio">
+            <img src="https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg" alt="logococa">
+        </figure>
+        <div class="nav-container">
+            
+                
+        <a href="index.html">Home</a>
+               
+        <a href="Marcas.html">Marcas</a>
+            
+        <a href="Sustentabilidade.html">Sustentabilidade</a>
+
+            
+        </div>
+    </nav>
+    <footer>
+        <figure class="LogoFinal">
+            <img src="https://www.coca-cola.com/content/dam/onexp/global/icons/logo-white-large.svg" alt="logococa">
+        </figure>
+        <hr>
+        <div class="footerlinks">
+            <a href="index.html">Home</a>
+            <a href="Marcas.html">Marcas</a>
+            <a href="Sustentabilidade.html">Sustentabilidade</a> 
+        </div>
+        <hr>
+        <div class="icones">
+            <a href="https://www.facebook.com">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
