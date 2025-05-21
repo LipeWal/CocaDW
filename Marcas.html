@@ -4,6 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcas</title>
+     <style>
+        body{
+            margin: 0;
+            padding: 0%;
+            font-family: Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+            font-weight: 700;
+            background-color: #eeeeee;
+            
+        }
+        /* margem e padding zeradas, todos os textos tem as mesma fonte, fonte-weight é responsavel por deixar letras mais grossas, fundo cinza claro */
+        nav {
+            background-color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        /* nav com fundo branco, padding pra baixo e pra cima, centralizado verticalmente e space-between para separar igualmente  */
+        .LogoInicio {
+            margin: 10px;
+        }
+        /* distanciar 10px da borda a imagem */
+
+        .nav-container {
+            display: flex;
+            justify-content:space-around;
+            flex-grow: 1;
+        }
+        /* alinha os links das paginas  e flex grow é responsavel por ocupar todo o espaço disposivel*/
+
+
+        .nav-container a {
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            
+        }
+        /* tira a decoração padrao de link, fonte tamanho 18 e cor preta */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black; 
+        }
+        /* footer posição fixa no fundo da pagina, cor de fundo preta, */
+        .LogoFinal{
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+
+        }
+        /* logo da coca branca, alinhada ao centro horizontalmente e verticalmente, com espaçamento de 50px pra ficar visualmente mais bonito */
+        hr {
+            margin: 30px;
+            width: 90%;
+            height:0.5; 
+            background-color:white;
+        }
+        /* margin para distanciar dos outros componentes, width para ocupar 90% da linha horizontal da pagina , grossura no 0.5 e cor branca*/
+        .icones {
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        /* icones com espaçamentos de 30px e centralizados horizontalmente */
+        .footerlinks {
+            display: flex;
+            justify-content: center; 
+            gap: 30px; 
+        }
+        /* Centraliza os elementos horizontalmente e Espaçamento entre os links com o gap*/
+
+
+        .footerlinks a {
+            padding: 30px; 
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        /* espaçamento de 30px, sem decoração no texto, cor do texto branco e fonte com 20px */
+
+        .icones i {
+            padding: 50px;
+            font-size: 25px;
+            color: white;
+        }
+        /* espaçamente de 50px, tamanho da fonte com 25px e cor branca */
+
+    </style>
 </head>
 <body>
     <h1>Explore Nossas Marcas</h1>
